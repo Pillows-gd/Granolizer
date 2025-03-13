@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Y9CXt4" name="Granolizer" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildAU,buildStandalone,buildVST3" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginVST3Category="Instrument" pluginDesc="A granular synthesis based synthesizer"
+              pluginChannelConfigs="{0,2},{0,1}" defines="JUCE_MODAL_LOOPS_PERMITTED = 1"
+              companyName="LIM" pluginManufacturer="LIM" pluginManufacturerCode="LIM!"
+              pluginName="Granolizer">
+  <MAINGROUP id="GpJC0D" name="Granolizer">
+    <GROUP id="{9F333402-9BCD-F1FD-D350-F0DAFB7D54D0}" name="Images">
+      <FILE id="uxgGU0" name="button.png" compile="0" resource="1" file="Images/button.png"/>
+      <FILE id="Kdkiwj" name="buttonDown.png" compile="0" resource="1" file="Images/buttonDown.png"/>
+      <FILE id="ow73Tk" name="grain1.PNG" compile="0" resource="1" file="Images/grain1.PNG"/>
+      <FILE id="A59ISI" name="grain2.PNG" compile="0" resource="1" file="Images/grain2.PNG"/>
+      <FILE id="UMvbv6" name="grain3.PNG" compile="0" resource="1" file="Images/grain3.PNG"/>
+      <FILE id="aNUE5j" name="grain4.PNG" compile="0" resource="1" file="Images/grain4.PNG"/>
+      <FILE id="MIKDo5" name="grain5.PNG" compile="0" resource="1" file="Images/grain5.PNG"/>
+      <FILE id="okoFN8" name="grain6.PNG" compile="0" resource="1" file="Images/grain6.PNG"/>
+      <FILE id="ZzGegR" name="grain7.PNG" compile="0" resource="1" file="Images/grain7.PNG"/>
+      <FILE id="dV1xcW" name="keySync.png" compile="0" resource="1" file="Images/keySync.png"/>
+      <FILE id="p86XJy" name="knob.png" compile="0" resource="1" file="Images/knob.png"/>
+      <FILE id="wkix9Y" name="knob_b.png" compile="0" resource="1" file="Images/knob_b.png"/>
+      <FILE id="l18YVl" name="knob_m.png" compile="0" resource="1" file="Images/knob_m.png"/>
+      <FILE id="jUbzat" name="knob_s.png" compile="0" resource="1" file="Images/knob_s.png"/>
+      <FILE id="xjavE8" name="slider.png" compile="0" resource="1" file="Images/slider.png"/>
+      <FILE id="xUKvmz" name="adsrScaled.png" compile="0" resource="1" file="Images/adsrScaled.png"/>
+      <FILE id="bkLCsm" name="earScaled.png" compile="0" resource="1" file="Images/earScaled.png"/>
+      <FILE id="L4XvBE" name="frameScaled.png" compile="0" resource="1" file="Images/frameScaled.png"/>
+      <FILE id="nElBsK" name="modsScaled.png" compile="0" resource="1" file="Images/modsScaled.png"/>
+      <FILE id="zghWgu" name="nameScaled.png" compile="0" resource="1" file="Images/nameScaled.png"/>
+      <FILE id="KNDCYs" name="limScaled.png" compile="0" resource="1" file="Images/limScaled.png"/>
+      <FILE id="dFZ4IU" name="tinyButton.png" compile="0" resource="1" file="Images/tinyButton.png"/>
+      <FILE id="dcUZgE" name="tinyButtonDown.png" compile="0" resource="1"
+            file="Images/tinyButtonDown.png"/>
+      <FILE id="mjKWZo" name="rect.png" compile="0" resource="1" file="Images/rect.png"/>
+      <FILE id="vS0R0n" name="sawDown.png" compile="0" resource="1" file="Images/sawDown.png"/>
+      <FILE id="KOxkWF" name="sawUp.png" compile="0" resource="1" file="Images/sawUp.png"/>
+      <FILE id="dCHlQv" name="sine.png" compile="0" resource="1" file="Images/sine.png"/>
+      <FILE id="NUjX0e" name="snh.png" compile="0" resource="1" file="Images/snh.png"/>
+      <FILE id="DWpSaz" name="tri.png" compile="0" resource="1" file="Images/tri.png"/>
+    </GROUP>
+    <GROUP id="{3AA98684-74E5-9109-98E9-8D55E0639E12}" name="Source">
+      <GROUP id="{2A7198D6-B4BC-E5C7-0214-4F3E750D0CB6}" name="GUI">
+        <FILE id="kMWiJT" name="Bar.h" compile="0" resource="0" file="Source/Bar.h"/>
+        <FILE id="LKfDPx" name="CustomPluginEditor.cpp" compile="1" resource="0"
+              file="Source/CustomPluginEditor.cpp"/>
+        <FILE id="NswZ93" name="CustomPluginEditor.h" compile="0" resource="0"
+              file="Source/CustomPluginEditor.h"/>
+        <FILE id="xrcE3M" name="MyTheme.h" compile="0" resource="0" file="Source/MyTheme.h"/>
+      </GROUP>
+      <GROUP id="{C871BCA7-EDC4-9DCD-2211-17B83D839C4A}" name="DSP">
+        <FILE id="H7K8sR" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+        <FILE id="b6Opnp" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+        <FILE id="a7N617" name="Grains.h" compile="0" resource="0" file="Source/Grains.h"/>
+        <FILE id="AZr1Ne" name="FileLoader.h" compile="0" resource="0" file="Source/FileLoader.h"/>
+        <FILE id="tcqWxQ" name="Oscillators.h" compile="0" resource="0" file="Source/Oscillators.h"/>
+        <FILE id="PgJIqr" name="Looper.h" compile="0" resource="0" file="Source/Looper.h"/>
+        <FILE id="SajuCb" name="Granulizer.h" compile="0" resource="0" file="Source/Granulizer.h"/>
+        <FILE id="GalIQT" name="Cutter.h" compile="0" resource="0" file="Source/Cutter.h"/>
+      </GROUP>
+      <FILE id="BHzty1" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
+      <FILE id="CZXWw4" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="lHePyz" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Granulizer (Tesi)"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Granulizer (Tesi)"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_core" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_dsp" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Giorgio\JUCE\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Giorgio\JUCE\modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
