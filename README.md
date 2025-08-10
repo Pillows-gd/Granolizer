@@ -3,6 +3,10 @@ Granolizer is a Granular Synthesizer developed for LIM (Laobratorio di Informati
 
 Granolizer was developed for LIM (Laboratorio di Informatica Musicale). Download is available at https://audioplugins.lim.di.unimi.it/index.php?p=2
 
+## Demo
+The following video demonstrates few of the sounds the plugin can generate. A text over the UI tells what the input audio is in order to understand how the plugin can manipulate abd transform it into something new.
+https://github.com/user-attachments/assets/1f79f9ce-3da8-49cd-b3df-7df2251a4617
+
 ## Documentation (Ita)
 <img width="953" height="901" alt="image" src="https://github.com/user-attachments/assets/256a3cc3-600a-497a-bb6d-2c1082e3ddd1" />
 
