@@ -1,10 +1,12 @@
 # Granolizer 1.0
 Granolizer is a Granular Synthesizer developed for LIM (Laobratorio di Informatica Musicale) with up to 8 different "grain-flows" playing together for an unpredictable and fascinating sound.
-Download is available at https://audioplugins.lim.di.unimi.it/index.php?p=2
+
+Granolizer was developed for LIM (Laboratorio di Informatica Musicale). Download is available at https://audioplugins.lim.di.unimi.it/index.php?p=2
+
 ## Documentation (Ita)
 <img width="953" height="901" alt="image" src="https://github.com/user-attachments/assets/256a3cc3-600a-497a-bb6d-2c1082e3ddd1" />
 
-Cosa è?
+### Cos'è?
 
 Granolizer è un sintetizzatore granulare che comprende modulazioni e controllo dell'inviluppo d'ampiezza. Supporta file in input mono e stereo.
 
@@ -18,7 +20,7 @@ In questo zip trovate questo file (il manuale), il file che indica le differenze
 <tr><td valign="top">Windows</td><td valign="top">√</td><td valign="top">×</td><td valign="top">×</td><td valign="top">√</td><td valign="top">×</td><td valign="top">√</td></tr>
 </table>
 
-Come si installa?
+### Come si installa?
 
 In base al sistema operativo (Mac OS o Windows), all'architettura (32 o 64 bit), e allo standard che si intende usare (VST2 o VST3) si dovrà copiare il rispettivo file del plugin nella cartella più appropriata:
 
@@ -39,7 +41,7 @@ In base al sistema operativo (Mac OS o Windows), all'architettura (32 o 64 bit),
 
 *Nota: Si aggiunga il suffisso " (x86)" alla cartella "Programmi" per i plugin a 32-bit su sistemi a 64-bit.*
 
-Come si usa?
+### Come si usa?
 
 Per iniziare a generare suoni, caricare dapprima un file .wav o .aiff in input tramite il bottone **Load Sample**. Una volta fatto ciò basterà premere qualsiasi tasto di un MIDI Controller collegato e si otterrà dell'audio in output.
 
@@ -103,7 +105,7 @@ A seguire, una descrizione del comportamento dei bottoni:
 
 *Nota: I bottoni **x0.5**, **x1.0** e **x2.0** ignorano il valore corrente di **Speed** e **Position Spread**. Per ottenere una vera e propria lettura del file alle varie velocità, impostare **Speed** a 0.00 e **Position Spread** a 0.00000.*
 
-Limitazioni note
+### Limitazioni note
 
 Il plugin è in continua fase di sviluppo, potrebbe essere soggetto a bug. In caso se ne trovi qualcuno, per favore, comunicarlo direttamente allo sviluppatore alla mail: filippo.giabelli@gmail.com, grazie.
 
